@@ -1,16 +1,48 @@
-# React + Vite
+# 🌌 AstroSync Prototype
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**AstroHack 2026 Submission**
 
-Currently, two official plugins are available:
+AstroSync is an interactive React web application prototype built to solve the engagement and acquisition bottlenecks for astrology consultation platforms. It transforms occasional users into daily active users by combining **habit-forming loops** with **structural virality**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **🔮 Daily Cosmic Alignment (Habit-Forming):** A gamified daily dashboard featuring an AI-generated personalized reading, lucky metrics (colors/times), and an interactive daily Tarot card pull. Uses a "streak" system to reward consecutive logins.
+- **💖 Cosmic Match (Structural Virality):** An astrological compatibility tool that allows users to generate unique links to send to friends or partners. When friends open the link, it acts as a zero-CAC (Customer Acquisition Cost) lead magnet for the platform.
+- **🎨 Premium Aesthetic:** Built using custom Vanilla CSS with deep space themes, glassmorphism, and smooth Framer Motion animations.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 How to Run Locally
 
-## Expanding the Oxlint configuration
+To explore the prototype on your own machine, follow these steps:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your device.
+
+### Installation
+
+1. **Clone the repository** (if you haven't already):
+   ```bash
+   git clone https://github.com/motaboii/astrosync-prototype.git
+   cd astrosync-prototype
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **View the App:**
+   Open your browser and navigate to `http://localhost:5173` to interact with AstroSync!
+
+## 🛠️ Tech Stack
+- **Frontend Framework:** React.js + Vite
+- **Styling:** Custom CSS (Glassmorphism & Dark Mode)
+- **Icons:** Lucide React
+- **Animations:** Framer Motion
+
+---
+*Built for AstroHack 2026: Build the Next Universe.*
